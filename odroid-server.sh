@@ -6,7 +6,7 @@
 # set -x
 
 # Global defines
-HOMEDIR="/root/odroid-server"
+HOMEDIR="${0%/*}"
 
 check_root() 
 {
